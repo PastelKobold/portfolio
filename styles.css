@@ -20,8 +20,8 @@ body {
 header {
     /* background-color: #f4f4f4; */
     background-color: #4CAF50;
-    color: white
-    padding: 10px;
+    color: white;
+    padding: 5px;
     text-align: center;
 }
 
@@ -44,6 +44,35 @@ h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.projects {
+    margin-top: 20px;
+}
+
+.project {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 0 0 10px;
+}
+
+/* .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+} */
+
+.project-link:hover {
+    background-color: #45a049;
 }
 
 /* Responsive design for mobile view */
